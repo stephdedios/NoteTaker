@@ -4,13 +4,12 @@
   "description": "LIVE DEMO: https://stephdedios.github.io/NoteTaker/.",
   "main": "server.js",
   "dependencies": {
-    "node": "^14.4.0"
+    "express": "^4.17.1"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "postinstall": "npm rebuild grpc --target=10.15.0 --target_arch=x64 --target_platform=linux --target_libc=glibc"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
