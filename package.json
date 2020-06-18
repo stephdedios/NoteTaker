@@ -1,5 +1,5 @@
 {
-  "name": "NoteTaker",
+  "name": "notetaker",
   "version": "1.0.0",
   "description": "LIVE DEMO: https://stephdedios.github.io/NoteTaker/.",
   "main": "server.js",
@@ -15,7 +15,6 @@
     "type": "git",
     "url": "git+https://github.com/stephdedios/NoteTaker.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
