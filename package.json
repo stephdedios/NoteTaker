@@ -9,7 +9,8 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "postinstall": "npm rebuild grpc --target=10.15.0 --target_arch=x64 --target_platform=linux --target_libc=glibc"
   },
   "repository": {
     "type": "git",
